@@ -10,4 +10,4 @@ steps:
 artifacts:
   objects:
     location: 'gs://lstypkapostman'
-    paths: ['*.html']
+    paths: ['newman/*.html']
