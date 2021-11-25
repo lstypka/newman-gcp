@@ -1,0 +1,25 @@
+{
+	"info": {
+		"_postman_id": "1e499131-8b59-4ca4-b37e-3c6cbb29ef2c",
+		"name": "sample",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Google",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://google.pl",
+					"protocol": "https",
+					"host": [
+						"google",
+						"pl"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
