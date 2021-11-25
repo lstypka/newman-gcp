@@ -7,3 +7,7 @@ steps:
     args: ['run','test:postman']
     env:
       - 'URL=${_MY_DEPLOYED_URL}'
+artifacts:
+  objects:
+    location: 'gs://lstypkapostman'
+    paths: ['*.html']
