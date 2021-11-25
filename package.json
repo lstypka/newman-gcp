@@ -1,0 +1,26 @@
+{
+  "name": "newman-gcp",
+  "description": "Simple newman sample for Google App Engine Standard Environment.",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lstypka/newman-gcp.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --exit test/*.test.js",
+    "test:system": "newman run postman/collection.json -e postman/environment.json --env-var url=$URL"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "newman": "^5.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "supertest": "^6.0.0"
+  }
+}
