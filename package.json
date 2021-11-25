@@ -14,7 +14,7 @@
     "start": "node app.js",
     "test": "mocha --exit test/*.test.js",
     "test:system": "newman run postman/collection.json -e postman/environment.json --env-var url=$URL",
-    "test:postman": "newman run postman/sample-collection.json"
+    "test:postman": "newman run postman/sample_collection.json"
   },
   "dependencies": {
     "express": "^4.17.1",
