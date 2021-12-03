@@ -7,5 +7,5 @@ steps:
     args: ['run','test:postman']
 artifacts:
   objects:
-    location: 'gs://lstypkapostman2'
+    location: 'gs://lstypkapostman03122021'
     paths: ['newman/*.html']
